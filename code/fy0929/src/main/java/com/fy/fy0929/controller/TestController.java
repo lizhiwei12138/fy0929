@@ -25,6 +25,7 @@ public class TestController {
     @RequestMapping("/jump")
     public String jump(Model model){
         model.addAttribute("test","test");
+
         return "test";
     }
 }
