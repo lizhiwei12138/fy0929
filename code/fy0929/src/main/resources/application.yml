@@ -1,0 +1,30 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/fy0929
+    driver-class-name: com.mysql.jdbc.Driver
+  freemarker:
+    expose-request-attributes: true
+    expose-session-attributes: true
+    request-context-attribute: request
+    cache: false
+    charset: UTF-8
+    check-template-location: true
+    content-type: text/html
+    template-loader-path: classpath:/templates
+    suffix: .ftl
+
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: com.fy.fy0929.entity
+##showSql
+#logging:
+#  level:
+#    com:
+#      example:
+#        mapper : debug
+
