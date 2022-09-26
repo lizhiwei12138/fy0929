@@ -12,7 +12,7 @@
             <td>1</td>
             <td>1</td>
             <td>1</td>
-            <td>${test}</td>
+            <td>${test}<div style="color: red">${springMacroRequestContext.contextPath}</div></td>
         </tr>
     </table>
     <br/>

@@ -1,0 +1,11 @@
+<script type="text/javascript" src="${springMacroRequestContext.contextPath}/vendor/jquery-3.3.1/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="${springMacroRequestContext.contextPath}/vendor/js/template-web.js"></script>
+<script type="text/javascript" src="${springMacroRequestContext.contextPath}/vendor/jquery.dataTables-1.10.15/js/dataTables.bootstrap4.js"></script>
+<script type="text/javascript" src="${springMacroRequestContext.contextPath}/vendor/jquery.dataTables-1.10.15/js/jquery.dataTables.js"></script>
+<script type="text/javascript" src="${springMacroRequestContext.contextPath}/vendor/jquery.dataTables-1.10.15/js/jquery.dataTables.override.js"></script>
+<script type="text/javascript" src="${springMacroRequestContext.contextPath}/vendor/bootstrap-4.1.3/js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="${springMacroRequestContext.contextPath}/vendor/bootstrap-4.1.3/js/bootstrap.js"></script>
+<script type="text/javascript" src="${springMacroRequestContext.contextPath}/vendor/bootstrap-select-1.13.14/js/bootstrap-select.js"></script>
+<script type="text/javascript" src="${springMacroRequestContext.contextPath}/vendor/bootstrapValidator-0.5.1/js/bootstrapValidator.js"></script>
+<script type="text/javascript" src="${springMacroRequestContext.contextPath}/vendor/bootstrapValidator-0.5.1/js/bootstrapValidator.override.js"></script>
+<script type="text/javascript" src="${springMacroRequestContext.contextPath}/vendor/bootstrapValidator-0.5.1/language/zh_CN.js"></script>
