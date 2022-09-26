@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 public class IndexController {
     @RequestMapping({"/",""})
     public String index(HttpServletRequest request,Model model){
-        model.addAttribute("contextPath",request.getContextPath());
+         model.addAttribute("contextPath",request.getContextPath());
         return "index";
     }
 }
